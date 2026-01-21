@@ -1,2 +1,10 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _1st_day;
+
+class Program
+{
+    static void Main()
+    {
+        DataTypes dataTypes = new DataTypes();
+        dataTypes.ShowDataTypes();
+    }
+}
